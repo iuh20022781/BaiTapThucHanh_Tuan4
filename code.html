@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,176 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="../Tuan_04/style.css">
 </head>
+
 <body>
-    <div class="all">
-        <div class="menu">
-            <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/logo.png" alt="">
-            <ion-icon name="home-sharp"></ion-icon>
-            <ion-icon name="chatbox-ellipses-sharp"></ion-icon>
-            <ion-icon name="calendar-clear-sharp"></ion-icon>
-            <ion-icon name="videocam-sharp"></ion-icon>
-            <ion-icon name="person-sharp"></ion-icon>
-        </div>
-        <div class="tbody">
-            <h3>Meeting title</h3>
-        </div>
-        <div class="end">
-            <h3>Participants</h3>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="../Tuan_04/BaiTapTH_Tuan_04_Web/logo.png" alt="">
+                    <img class="item" src="../Tuan_04/BaiTapTH_Tuan_04_Web/home.png" alt="">
+                    <img class="item" src="../Tuan_04/BaiTapTH_Tuan_04_Web/cam.png" alt="">
+                    <img class="item" src="../Tuan_04/BaiTapTH_Tuan_04_Web/chatting.png" alt="">
+                    <img class="item" src="../Tuan_04/BaiTapTH_Tuan_04_Web/user.png" alt="">
+                </div>
+
+                <div id="below">
+                    <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar.png" width="44" alt="">
+                    <img id="setting" src="../Tuan_04/BaiTapTH_Tuan_04_Web/setting.png" width="44" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <div class="title">
+                    <h1>Meeting title</h1>
+                    <h3>12:00</h3>
+                </div>
+                <div class="ct_1">
+                    <div class="person">
+                        <ion-icon name="person-sharp" style="background-color: aliceblue; color: brown; border-radius: 100%; font-size: 13px;"></ion-icon>
+                    <span>Internal</span>
+                    </div>
+                    <div class="day">
+                        <ion-icon name="calendar-clear-sharp"></ion-icon>
+                        <span style="padding-left: 10px;">Sep 02, 2022  |  08:00 - 09:00 AM</span>
+                    </div>
+                </div>
+                <div class="img_1" style="padding-top: 40px;">
+                    <li>Benjamin Crawford</li>
+                    <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/img_big.png" alt="">
+                    <ion-icon class="ic1" name="mic-sharp"></ion-icon>
+                </div>
+                <div class="pp">
+                    <div class="img_2" style="padding-top: 40px;">
+                        <li>Christian Scott</li>
+                        <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/img2.png" alt="">
+                        <ion-icon class="ic2" name="mic-sharp"></ion-icon>
+                    </div>
+                    <div class="img_2" style="padding-top: 40px;">
+                        <li>Deborah Chu</li>
+                        <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/img1.png" style="margin: 0 10px;" alt="">
+                        <ion-icon class="ic2" style="right: 20px;" name="mic-off-sharp"></ion-icon>
+                    </div>
+                    <div class="img_2" style="padding-top: 40px;">
+                        <li>Jordan Nieves</li>
+                        <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/img.png" alt="">
+                        <ion-icon class="ic2" name="mic-sharp"></ion-icon>
+                    </div>
+                </div>
+                <div class="icon">
+                    <ion-icon name="mic-sharp"></ion-icon>
+                    <ion-icon style="margin: 0 10px;" name="videocam-sharp"></ion-icon>
+                    <ion-icon name="volume-low-sharp"></ion-icon>
+                    <button class="btn-2">End meeting</button>
+                    <ion-icon name="tv-sharp"></ion-icon>
+                    <ion-icon style="margin: 0 10px;" name="share-social-sharp"></ion-icon>
+                    <ion-icon name="ellipsis-horizontal-sharp"></ion-icon>
+                </div>
+            </div>
+
+            <div id="right">
+                <div class="ten">
+                    <div class="td">
+                        <div class="tieude">
+                            <h1>Participants</h1>
+                            <h4>4</h4>
+                        </div>
+                        <div class="add">
+                            <button><p style="margin: 0 10px;"><b>+</b></p><b>Add</b></button>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <div class="pp1">
+                            <div class="pp2">
+                                <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1322.png" alt="">
+                                <span style="margin-left: 10px;">Benjamin Crawford</span>
+                            </div>
+                            <div class="icon-pp">
+                                <ion-icon name="mic-outline"></ion-icon>
+                                <ion-icon style="margin: 0 15px;" name="videocam-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="pp1">
+                            <div class="pp2">
+                                <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1323.png" alt="">
+                                <span style="margin-left: 10px;">Christian Scott</span>
+                            </div>
+                            <div class="icon-pp">
+                                <ion-icon name="mic-outline"></ion-icon>
+                                <ion-icon style="margin: 0 15px;" name="videocam-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="pp1">
+                            <div class="pp2">
+                                <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1324.png" alt="">
+                                <span style="margin-left: 10px;">Deborah Chu</span>
+                            </div>
+                            <div class="icon-pp">
+                                <ion-icon name="mic-off-outline"></ion-icon>                                
+                                <ion-icon style="margin: 0 15px;" name="videocam-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="pp1">
+                            <div class="pp2">
+                                <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1325.png" alt="">
+                                <span style="margin-left: 10px;">Jordan Nieves</span>
+                            </div>
+                            <div class="icon-pp">
+                                <ion-icon name="mic-outline"></ion-icon>
+                                <ion-icon style="margin: 0 15px;" name="videocam-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat">
+                    <h1 style="margin: 30px 50px;">Chat</h1>
+                    <div class="chat-1">
+                        <div class="nc">
+                            <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1326.png" alt="">
+                            <span style="margin: 0 10px;"><b>Deborah Chu</b></span>
+                            <span style="color: rgb(140, 141, 142);">1:12 PM</span>
+                        </div>
+                        <div class="nd">
+                            <p>Lorem excepteur magna voluptate exercitation dolore exercitation amet</p>
+                        </div>
+                        <div class="nc">
+                            <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1327.png" alt="">
+                            <span style="margin: 0 10px;"><b>Jordan Nieves</b></span>
+                            <span style="color: rgb(140, 141, 142);">1:12 PM</span>
+                        </div>
+                        <div class="nd">
+                            <p>Eiusmod laborum culpa est magna cillum sint in elit proident magna anim consecte</p>
+                        </div>
+                        <div class="nc">
+                            <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1328.png" alt="">
+                            <span style="margin: 0 10px;"><b>Deborah Chu</b></span>
+                            <span style="color: rgb(140, 141, 142);">1:12 PM</span>
+                        </div>
+                        <div class="stk">
+                            <p>🥰🥰🥰</p>
+                        </div>
+                        <div class="nc">
+                            <img src="../Tuan_04/BaiTapTH_Tuan_04_Web/avatar 1329.png" alt="">
+                            <span style="margin: 0 10px;"><b>Christian Scott</b></span>
+                        </div>
+        
+                    </div>
+                    <div class="send">
+                        <div class="ip-chat">
+                            <input class="ip-chat-1" style="background-color: #ccc;padding: 7px;" type="text" placeholder=" Add comment...">
+                            <ion-icon name="happy-sharp"></ion-icon>
+                        </div>
+                        <ion-icon style="margin-right: 50px;font-size: 20px;color:darksalmon;" name="send-sharp"></ion-icon>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </body>
+
 </html>
